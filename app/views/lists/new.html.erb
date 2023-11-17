@@ -1,0 +1,6 @@
+<h2>New List</h2>
+<%= simple_form_for  @list do |t| %>
+  <%= t.input :name%>
+  <%= t.submit %>
+<%end %>
+<%= link_to "Back to list ", lists_path%>
